@@ -1,8 +1,8 @@
 <svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF004F;stop-opacity:0.1" />
-      <stop offset="100%" style="stop-color:#FF004F;stop-opacity:0.3" />
+      <stop offset="0%" style="stop-color:#DA145B;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#DA145B;stop-opacity:0.3" />
     </linearGradient>
     <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#FFE0B2;stop-opacity:1" />
@@ -13,17 +13,17 @@
       <stop offset="100%" style="stop-color:#5D4037;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="shirtGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FF004F;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#D50036;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#DA145B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B10A47;stop-opacity:1" />
     </linearGradient>
   </defs>
   
   <!-- Background Circle -->
-  <circle cx="150" cy="150" r="150" fill="url(#bgGradient)" stroke="#FF004F" stroke-width="2"/>
+  <circle cx="150" cy="150" r="150" fill="url(#bgGradient)" stroke="#DA145B" stroke-width="2"/>
   
   <!-- Shirt/Shoulders -->
   <path d="M 80 250 Q 100 220 120 240 L 120 300 L 180 300 L 180 240 Q 200 220 220 250 L 220 300 L 80 300 Z" 
-        fill="url(#shirtGradient)" stroke="#D50036" stroke-width="1"/>
+        fill="url(#shirtGradient)" stroke="#B10A47" stroke-width="1"/>
   
   <!-- Neck -->
   <ellipse cx="150" cy="230" rx="25" ry="35" fill="url(#faceGradient)"/>
@@ -60,9 +60,9 @@
   <circle cx="175" cy="190" r="2" fill="#FFAB91" opacity="0.5"/>
   
   <!-- Shirt Details -->
-  <circle cx="150" cy="270" r="5" fill="#D50036"/>
-  <circle cx="135" cy="285" r="3" fill="#D50036"/>
-  <circle cx="165" cy="285" r="3" fill="#D50036"/>
+  <circle cx="150" cy="270" r="5" fill="#B10A47"/>
+  <circle cx="135" cy="285" r="3" fill="#B10A47"/>
+  <circle cx="165" cy="285" r="3" fill="#B10A47"/>
   
   <!-- Subtle Shadows -->
   <ellipse cx="150" cy="210" rx="45" ry="8" fill="#000" opacity="0.1"/>
