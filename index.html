@@ -38,12 +38,7 @@
                     <h1 class="section-title">About Me</h1>
                     <div class="intro">
                         <p class="intro-text">
-                            Hello! I'm a Software Developer and AI Associate with a solid foundation in full-stack development, 
-                            backend integration, and database management. Proficient in Java, SQL, JavaScript, and Spring Boot, 
-                            I'm passionate about creating reliable and user-friendly software solutions. Currently working as an 
-                            AI Associate, I combine my technical expertise with emerging AI technologies to deliver innovative 
-                            solutions. Known for being a fast learner, problem-solver, and team player with a commitment to 
-                            continuous improvement.
+                            Hello! I'm an AI Associate with a strong background in full-stack development, backend integration, and database management. Proficient in Java, SQL, JavaScript, and Spring Boot, I specialize in building reliable, user-friendly software solutions. In my current role, I combine development expertise with emerging AI technologies to deliver innovative, intelligent systems. I'm known for being a fast learner, proactive problem-solver, and collaborative team player, driven by a commitment to continuous growth and impact.
                         </p>
                     </div>
                     <div class="cta-buttons">
@@ -82,6 +77,45 @@
                         <span class="tech-tag">Java</span>
                         <span class="tech-tag">SQL</span>
                         <span class="tech-tag">Database Design</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Task Management Project</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A task management application designed to help users organize and track their daily tasks efficiently. Built with React, CSS, HTML, and JavaScript, it uses local storage for data persistence. Features include task creation, editing, deletion, and status updates.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">React</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <div class="project-links">
+                            <a href="#" class="project-link" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        This personal portfolio website showcases my skills, projects, and professional background. Built with modern web technologies to provide a responsive and user-friendly experience.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
                     </div>
                 </div>
 
@@ -164,17 +198,11 @@
                                 <i class="fab fa-java"></i>
                                 <span>Java</span>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="90"></div>
-                            </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
                                 <i class="fab fa-js-square"></i>
                                 <span>JavaScript</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
                             </div>
                         </div>
                         <div class="skill-item">
@@ -182,17 +210,11 @@
                                 <i class="fab fa-html5"></i>
                                 <span>HTML & CSS</span>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="88"></div>
-                            </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
                                 <i class="fab fa-python"></i>
                                 <span>Python</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="75"></div>
                             </div>
                         </div>
                     </div>
@@ -206,17 +228,11 @@
                                 <i class="fas fa-leaf"></i>
                                 <span>Spring Boot</span>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="85"></div>
-                            </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
                                 <i class="fas fa-database"></i>
                                 <span>PostgreSQL</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="80"></div>
                             </div>
                         </div>
                         <div class="skill-item">
@@ -224,17 +240,11 @@
                                 <i class="fas fa-database"></i>
                                 <span>SQL</span>
                             </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="88"></div>
-                            </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
                                 <i class="fab fa-laravel"></i>
                                 <span>Laravel</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" data-progress="70"></div>
                             </div>
                         </div>
                     </div>
@@ -399,10 +409,33 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Asanda Mbangata. All rights reserved.</p>
+            <p>&copy; 2025 Asanda Mbangata. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("tSHYS3wE0VSa30mfJ");
+      })();
+    </script>
     <script src="script.js"></script>
+    
+    <!-- Chatbot Widget -->
+<div id="asandabot-widget">
+  <div id="asandabot-header">
+    <span>AsandaBot</span>
+    <button id="asandabot-close">&times;</button>
+  </div>
+  <div id="asandabot-messages"></div>
+  <form id="asandabot-form" autocomplete="off">
+    <input type="text" id="asandabot-input" placeholder="Ask me about Asanda..." required />
+    <button type="submit">Send</button>
+  </form>
+</div>
+<button id="asandabot-toggle">
+  <i class="fas fa-comment-dots"></i>
+</button>
+
 </body>
 </html>
